@@ -8,8 +8,7 @@ public class Main {
             int x1 = balance + add;
             System.out.println("Баланс телефона:" + x1);
         } else {
-            int i = add / 100 + (balance + add);
-
+            int i = add / 100 + (balance + add); // не знаю как назвать баланс + бонус
             System.out.println("Баланс телефона:" + i);
         }
     }
