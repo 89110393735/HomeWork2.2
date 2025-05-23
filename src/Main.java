@@ -5,11 +5,11 @@ public class Main {
         int balance = 100;
         int add  = 1100;
         if (add < 1000) {
-            int x1 = balance + add;
-            System.out.println("Баланс телефона:" + x1);
+            int newBalance = balance + add;
+            System.out.println("Баланс телефона:" + newBalance);
         } else {
-            int i = add / 100 + (balance + add); // не знаю как назвать баланс + бонус
-            System.out.println("Баланс телефона:" + i);
+            int bonusBalance = add / 100 + (balance + add);
+            System.out.println("Баланс телефона:" + bonusBalance);
         }
     }
 }
